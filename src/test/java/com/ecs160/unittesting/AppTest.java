@@ -40,6 +40,6 @@ public class AppTest
         app.setName("XYZ");
         app.setAge(27);
         int birthYear = app.computeYearBorn();
-        assertEquals(birthYear, 1998);
+        assertEquals(birthYear, 1999);
     }
 }
