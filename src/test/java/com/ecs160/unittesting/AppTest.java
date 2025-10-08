@@ -13,7 +13,6 @@ import com.ecs160.unittesting.App;
 public class AppTest 
 {
 
-	/*
     @BeforeEach
     public void init() {
         System.out.println("Run this before every test...");
@@ -24,7 +23,6 @@ public class AppTest
         System.out.println("Run this before every class ...");
     }
 
-		*/
     @Test
     public void testApp()
     {
@@ -35,7 +33,6 @@ public class AppTest
         assertEquals(birthYear, 2003);
     }
 
-		/*
     @Test
     public void testApp2()
     {
@@ -45,5 +42,4 @@ public class AppTest
         int birthYear = app.computeYearBorn();
         assertEquals(birthYear, 1999);
     }
-		*/
 }
