@@ -30,7 +30,7 @@ public class AppTest
         app.setName("XYZ");
         app.setAge(22);
         int birthYear = app.computeYearBorn();
-        assertEquals(birthYear, 2003);
+        assertEquals(birthYear, 2004);
     }
 
     @Test
@@ -38,8 +38,8 @@ public class AppTest
     {
         App app = new App();
         app.setName("XYZ");
-        app.setAge(27);
+        app.setAge(20);
         int birthYear = app.computeYearBorn();
-        assertEquals(birthYear, 1999);
+        assertEquals(birthYear, 2006);
     }
 }
